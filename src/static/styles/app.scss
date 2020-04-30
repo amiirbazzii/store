@@ -1,0 +1,33 @@
+body {
+  background-color: #448ccb;
+  font-family: 'Vazir', Vazir, Tahoma, Arial, sans-serif !important;
+  font-size: 0.875rem;
+  font-weight: 300;
+
+  .box {
+    display: flex;
+    background-image: linear-gradient(#ffffff, #e8e8e8);
+    box-shadow: 0 9px 12px rgba($color: #000000, $alpha: 0.28);
+    align-items: center;
+  }
+
+  a,
+  p,
+  h1,
+  h3,
+  h2,
+  h4,
+  h5,
+  h6 {
+    color: #4b4b4b;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

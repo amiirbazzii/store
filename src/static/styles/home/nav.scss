@@ -1,0 +1,24 @@
+.nav {
+  .logo {
+    h2 {
+      color: #535353;
+      span {
+        color: #448ccb;
+      }
+    }
+  }
+
+  .menu-items {
+    .items {
+      li {
+        padding-left: 35px;
+        font-size: 17px;
+
+        a {
+          text-decoration: none;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
