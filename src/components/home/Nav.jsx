@@ -3,7 +3,7 @@ import React from 'react';
 import '../../static/styles/home/nav.scss';
 import '../../static/styles/home/searchBox.scss';
 
-import { ReactComponent as Cart } from '../../static/icons/add-to-basket.svg';
+import { ReactComponent as Cart } from '../../static/icons/nav/cart.svg';
 
 const Nav = () => {
   return (
