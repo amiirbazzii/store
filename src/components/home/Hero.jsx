@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../../static/styles/home/Hero.scss';
+import '../../static/styles/home/hero.scss';
 
-import HeroImage from '../../static/images/home/nikolay-tarashchenko-ep6Afz45gH0-unsplash.png';
+import HeroImage from '../../static/images/home/hero.png';
 
 const Hero = () => {
   return (

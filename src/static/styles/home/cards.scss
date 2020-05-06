@@ -1,0 +1,31 @@
+.cards {
+  justify-content: center;
+  .card {
+    padding: 5px;
+    margin: 10px;
+    .card-image {
+    }
+    .title {
+      color: #3a3a3a;
+    }
+    .price {
+      color: #535353;
+    }
+
+    .card-btns {
+      .card-btn {
+        border: 0;
+        background-color: #e22b39;
+        color: #ffffff;
+      }
+      .add-to-cart-btn {
+        background: transparent;
+        border: 2px solid #448ccb;
+        img {
+          width: 25px;
+          padding: 2px;
+        }
+      }
+    }
+  }
+}
