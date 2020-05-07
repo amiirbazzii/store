@@ -1,0 +1,25 @@
+.article {
+  padding-top: 20px;
+  .article-image {
+    img {
+      height: 100px;
+    }
+  }
+  .article-text {
+    margin-top: 10px;
+    margin-right: -15px;
+    text-align: right;
+
+    .article-dec {
+      margin-top: 15px;
+    }
+
+    a {
+      color: #e22b39;
+      text-decoration: none;
+      position: absolute;
+      top: 67%;
+      left: 7%;
+    }
+  }
+}

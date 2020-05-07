@@ -1,0 +1,28 @@
+.articles {
+  .articles-box {
+    .articles-head {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid #d4d4d4;
+      padding: 0;
+
+      .articles-title {
+        margin-top: 1rem;
+        color: #4a4a4a;
+      }
+
+      .articles-btn {
+        width: 120px;
+        padding: 5px;
+        margin-top: 1rem;
+        background-color: #448ccb;
+        color: #ffffff;
+        border: 0;
+      }
+    }
+  }
+
+  .slider {
+    max-width: 369px;
+  }
+}
