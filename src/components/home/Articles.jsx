@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Article from './Article';
-import Slider from './Slider';
+// import Slider from './Slider1';
+import Car from './Carousel';
 
 import '../../static/styles/home/articles.scss';
 
@@ -23,7 +24,7 @@ const Articles = () => {
         </div>
       </div>
       <div className='col-md-4 box mx-3 slider'>
-        <Slider />
+        <Car />
       </div>
     </div>
   );
