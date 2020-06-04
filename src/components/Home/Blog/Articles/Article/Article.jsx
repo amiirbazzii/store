@@ -1,9 +1,9 @@
 import React from 'react';
 
-import A1 from '../../static/images/home/article-1.png';
-import A2 from '../../static/images/home/article-2.png';
+import A1 from '../../../../../static/images/home/article-1.png';
+import A2 from '../../../../../static/images/home/article-2.png';
 
-import '../../static/styles/home/article.scss';
+import './Article.scss';
 
 const Article = () => {
   return (

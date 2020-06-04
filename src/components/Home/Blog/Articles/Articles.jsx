@@ -1,10 +1,9 @@
 import React from 'react';
 
-import Article from './Article';
-// import Slider from './Slider1';
-import Car from './Carousel';
+import Article from './Article/Article';
+import Carousel from '../../../Carousel/Carousel';
 
-import '../../static/styles/home/articles.scss';
+import './Articles.scss';
 
 const Articles = () => {
   return (
@@ -24,7 +23,7 @@ const Articles = () => {
         </div>
       </div>
       <div className='col-md-4 box mx-3 slider'>
-        <Car />
+        <Carousel />
       </div>
     </div>
   );

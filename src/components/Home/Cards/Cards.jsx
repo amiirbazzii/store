@@ -1,12 +1,12 @@
 import React from 'react';
 
-import '../../static/styles/home/cards.scss';
+import './Cards.scss';
 
-import CardImg1 from '../../static/images/home/card-1.png';
-import CardImg2 from '../../static/images/home/card-2.png';
-import CardImg3 from '../../static/images/home/card-3.png';
-import CardImg4 from '../../static/images/home/card-4.png';
-import AddToCart from '../../static/icons/cards/add-to-cart.png';
+import CardImg1 from '../../../static/images/home/card-1.png';
+import CardImg2 from '../../../static/images/home/card-2.png';
+import CardImg3 from '../../../static/images/home/card-3.png';
+import CardImg4 from '../../../static/images/home/card-4.png';
+import AddToCart from '../../../static/icons/cards/add-to-cart.png';
 
 const Cards = () => {
   return (

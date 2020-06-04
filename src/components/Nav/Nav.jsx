@@ -1,7 +1,7 @@
 import React from 'react';
 
-import '../../static/styles/home/nav.scss';
-import '../../static/styles/home/searchBox.scss';
+import './Nav.scss';
+import '../../static/styles/SearchBox.scss';
 
 import { ReactComponent as Cart } from '../../static/icons/nav/cart.svg';
 

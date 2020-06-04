@@ -1,11 +1,11 @@
 import React from 'react';
 
-import '../../static/styles/home/properites.scss';
+import './Properites.scss';
 
-import { ReactComponent as CreditCard } from '../../static/icons/properties/credit-card.svg';
-import { ReactComponent as DeliveryTruck } from '../../static/icons/properties/delivery-truck.svg';
-import { ReactComponent as DiscussIssue } from '../../static/icons/properties/discuss-issue.svg';
-import { ReactComponent as Hand } from '../../static/icons/properties/hand.svg';
+import { ReactComponent as CreditCard } from '../../../static/icons/properties/credit-card.svg';
+import { ReactComponent as DeliveryTruck } from '../../../static/icons/properties/delivery-truck.svg';
+import { ReactComponent as DiscussIssue } from '../../../static/icons/properties/discuss-issue.svg';
+import { ReactComponent as Hand } from '../../../static/icons/properties/hand.svg';
 
 const Properties = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../static/styles/home/hero.scss';
+import './Hero.scss';
 
 import HeroImage from '../../static/images/home/hero.png';
 
