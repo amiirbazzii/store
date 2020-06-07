@@ -16,7 +16,7 @@
   .menu-items {
     .items {
       li {
-        padding-left: 35px;
+        padding-right: 35px;
         font-size: 17px;
 
         a {
@@ -34,5 +34,11 @@
   .icon {
     cursor: pointer;
     padding-right: 10px;
+    svg {
+      fill: #707070;
+      &:hover {
+        fill: #2876bb;
+      }
+    }
   }
 }
