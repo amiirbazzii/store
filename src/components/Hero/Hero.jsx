@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='box'>
-        <div className='col-md-5 intro'>
+        <div className='intro'>
           <h2 className='hero-title'>بزرگترین فروشگاه لوازم الکترونیک کشور</h2>
 
           <p className='hero-text'>
@@ -22,7 +22,7 @@ const Hero = () => {
             کرد{' '}
           </p>
         </div>
-        <div className='col-md-7 image'>
+        <div className='image'>
           <img className='img-fluid' src={HeroImage} alt='Heroimage' />
         </div>
       </div>
