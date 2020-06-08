@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Property from './Property/Property';
+
 import './Properites.scss';
 
 import { ReactComponent as CreditCard } from '../../../static/icons/properties/credit-card.svg';
@@ -7,43 +9,85 @@ import { ReactComponent as DeliveryTruck } from '../../../static/icons/propertie
 import { ReactComponent as DiscussIssue } from '../../../static/icons/properties/discuss-issue.svg';
 import { ReactComponent as Hand } from '../../../static/icons/properties/hand.svg';
 
+const Cards = [
+  {
+    icon: 'CreditCard',
+    title: 'پرداخت امن',
+    text: 'قابل اعتماد و مطمئن',
+    id: 'askcjn651',
+  },
+  {
+    icon: 'DeliveryTruck',
+    title: 'ارسال رایگان',
+    text: 'خرید بالای 100 هزار تومان',
+    id: '35sdcsdc',
+  },
+  {
+    icon: 'DiscussIssue',
+    title: 'پشتیبانی',
+    text: 'پشتیبانی اختصاصی محصولات',
+    id: '65dcsdcv',
+  },
+  {
+    icon: 'Hand',
+    title: 'امکانات',
+    text: 'فروشگاهی با انواع کالاها',
+    id: '65dfvaq',
+  },
+];
+
 const Properties = () => {
   return (
-    <div className='row properties justify-content-center'>
-      <div className='propertie col-md-3 row align-items-center'>
-        <div className='col-6 p-0 icon'>
+    <div className='properties'>
+      <div className='property'>
+        <div className='icon'>
           <CreditCard />
         </div>
-        <div className='col-6 p-0 text'>
-          <h2 className='col-12 p-0 m-0'>پرداخت امن</h2>
-          <p className='col-12 p-0 pt-1 m-0'>قابل اعتماد و مطمئن</p>
+        <div className='intro'>
+          <Property
+            key={Cards[0].id}
+            title={Cards[0].title}
+            text={Cards[0].text}
+          />
         </div>
       </div>
-      <div className='propertie col-md-3 row align-items-center'>
-        <div className='col-5 p-0 icon'>
+
+      <div className='property'>
+        <div className='icon'>
           <DeliveryTruck />
         </div>
-        <div className='col-6 p-0 text'>
-          <h2 className='col-12 p-0 m-0'>ارسال رایگان</h2>
-          <p className='col-12 p-0 pt-1 m-0'>خرید بالای 100 هزار تومان</p>
+        <div className='intro'>
+          <Property
+            key={Cards[1].id}
+            title={Cards[1].title}
+            text={Cards[1].text}
+          />
         </div>
       </div>
-      <div className='propertie col-md-3 row align-items-center'>
-        <div className='col-6 p-0 icon'>
+
+      <div className='property'>
+        <div className='icon'>
           <DiscussIssue />
         </div>
-        <div className='col-6 p-0 text'>
-          <h2 className='col-12 p-0 m-0'>پشتیبانی</h2>
-          <p className='col-12 p-0 pt-1 m-0'>پشتیبانی اختصاصی محصولات</p>
+        <div className='intro'>
+          <Property
+            key={Cards[2].id}
+            title={Cards[2].title}
+            text={Cards[2].text}
+          />
         </div>
       </div>
-      <div className='propertie col-md-3 row align-items-center'>
-        <div className='col-6 p-0 icon'>
+
+      <div className='property'>
+        <div className='icon'>
           <Hand />
         </div>
-        <div className='col-6 p-0 text'>
-          <h2 className='col-12 p-0 m-0'>امکانات</h2>
-          <p className='col-12 p-0 pt-1 m-0'>فروشگاهی با انواع کالاها</p>
+        <div className='intro'>
+          <Property
+            key={Cards[3].id}
+            title={Cards[3].title}
+            text={Cards[3].text}
+          />
         </div>
       </div>
     </div>
