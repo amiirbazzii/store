@@ -47,4 +47,35 @@ body {
     display: flex;
     align-items: center;
   }
+
+  .app {
+    margin-top: 40px;
+  }
+  .container {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 596px) {
+    .container {
+      max-width: 560px;
+    }
+  }
+  @media (min-width: 788px) {
+    .container {
+      max-width: 740px;
+    }
+  }
+  @media (min-width: 1012px) {
+    .container {
+      max-width: 980px;
+    }
+  }
+  @media (min-width: 1220px) {
+    .container {
+      max-width: 1180px;
+    }
+  }
 }

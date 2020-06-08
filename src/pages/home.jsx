@@ -4,7 +4,7 @@ import Nav from '../components/Nav/Nav';
 import Hero from '../components/Hero/Hero';
 import Properties from '../components/Home/Properties/Properties';
 import Cards from '../components/Home/Cards/Cards';
-import Articles from '../components/Home/Blog/Articles/Articles';
+import Blog from '../components/Home/Blog/Blog';
 import Footer from '../components/Footer/Footer';
 
 export default class home extends PureComponent {
@@ -15,7 +15,7 @@ export default class home extends PureComponent {
         <Hero />
         <Properties />
         <Cards />
-        <Articles />
+        <Blog />
         <Footer />
       </div>
     );

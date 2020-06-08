@@ -42,20 +42,22 @@ export default class Carousel extends Component {
 
     return (
       <div className='mySlides fade'>
-        <img
-          className=' img-fluid'
-          src={require(`../../static/images/home/card-${this.state.imageNumber}.png`)}
-          alt={this.state.caption}
-        />
-        <button className='prev' onClick={() => this.plusSlides(-1)}>
-          &#10094;
-        </button>
-        <button className='next' onClick={() => this.plusSlides(1)}>
-          &#10095;
-        </button>
-        <div className='slider-text'>
-          <h3 className='text'>{this.state.image[captionNum - 1].caption}</h3>
-          <a href='/'>ادامه مطلب</a>
+        <div className='slideshow-container'>
+          <img
+            className=' img-fluid'
+            src={require(`../../static/images/home/card-${this.state.imageNumber}.png`)}
+            alt={this.state.caption}
+          />
+          <button className='prev' onClick={() => this.plusSlides(-1)}>
+            &#10094;
+          </button>
+          <button className='next' onClick={() => this.plusSlides(1)}>
+            &#10095;
+          </button>
+          <div className='slider-text'>
+            <h3 className='text'>{this.state.image[captionNum - 1].caption}</h3>
+            <a href='/'>ادامه مطلب</a>
+          </div>
         </div>
       </div>
     );

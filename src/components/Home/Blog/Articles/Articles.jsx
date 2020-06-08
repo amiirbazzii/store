@@ -1,30 +1,38 @@
 import React from 'react';
 
 import Article from './Article/Article';
-import Carousel from '../../../Carousel/Carousel';
+
+import A1 from '../../../../static/images/home/article-1.png';
+import A2 from '../../../../static/images/home/article-2.png';
 
 import './Articles.scss';
 
+const articleData = [
+  {
+    img: A1,
+    title: 'بررسی تخصصی دوربین حرفه ای سونی',
+    text:
+      'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون',
+  },
+  {
+    img: A2,
+    title: 'کدام لپتاپ مناسب برنامه‌نویسی است؟',
+    text:
+      'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون',
+  },
+];
+
 const Articles = () => {
   return (
-    <div className='d-flex px-1 articles'>
-      <div className='col-md-8 box articles-box ml-2 d-block'>
-        <div className='articles-head col-12'>
-          <div className='col-2 articles-title'>
-            <h2>مقالات</h2>
-          </div>
-          <div className='col-3 '>
-            <button className='articles-btn'>مقالات بیشتر</button>
-          </div>
-        </div>
-
-        <div className='articles'>
-          <Article />
-        </div>
-      </div>
-      <div className='col-md-4 box mx-3 slider'>
-        <Carousel />
-      </div>
+    <div>
+      {articleData.map((item, index) => (
+        <Article
+          img={item.img}
+          title={item.title}
+          text={item.text}
+          key={index}
+        />
+      ))}
     </div>
   );
 };
